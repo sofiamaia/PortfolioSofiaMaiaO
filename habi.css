@@ -1,0 +1,177 @@
+#topo{
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 10px;
+ 
+
+}
+#bthome{
+    margin-right: 15px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    
+}
+#bthabi{
+    margin-right: 15px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #FF7999;
+    font-family: "Heebo", sans-serif;
+}
+#btproj{
+    margin-right: 15px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: "Heebo", sans-serif;
+}
+#btctt{
+    margin-right: 15px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: "Heebo", sans-serif;
+}
+#fundo{
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid white; 
+    background-color: #bec7ff;
+    border-radius: 35px;
+    background-color: var(--background-color);   
+    color: var(--text-color);                   
+    font-family: Arial, sans-serif;              
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+#icones {
+    width: 18%;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+
+}
+#icones svg{
+    padding: 10px;
+
+}
+
+
+.svg-01 {
+    width: 40%;
+}
+
+
+#btndiv{
+    font-family: "Heebo", sans-serif ;
+    margin-left: 10%;
+    margin-top: 2%;
+
+}
+#btnsobre{
+    color: white;
+    background-color: #FF6464;
+    height: 5vh;
+    width: 12%;
+    font-size: 100%;
+    border-radius: 10px;
+    border: none;
+    
+}
+#cert{
+    background-color: #1882af75;
+    margin-top: 6%;
+    text-align: center;
+    font-family: "Heebo", sans-serif ;
+    font-size: 130%;
+    height: 49vh;
+    border-radius: 20px;
+    color: white;
+}
+#proj{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: "Heebo", sans-serif ;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+:root {
+    --background-color: #BEC7FF;       /* Fundo branco */
+    --text-color: white;             /* Texto preto */
+    --button-background: #2b3b5c;      /* Fundo do botão preto */
+    --button-text-color: white;      /* Texto do botão branco */
+}
+
+
+body {
+    background-color: var(--background-color);   
+    color: var(--text-color);                   
+    font-family: Arial, sans-serif;              
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-background);  /* Fundo do botão */
+    color: var(--button-text-color);             /* Cor do texto do botão */
+    border-radius: 5px;                          /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para o botão */
+}
+
+
+.dark-mode {
+    --background-color: #2b3b5c;      /* Fundo quase preto */
+    --text-color: #ffffff;            /* Texto branco */
+    --button-background: #BEC7FF;     /* Fundo do botão branco */
+    --button-text-color: white;     /* Texto do botão quase preto */
+    color: white;
+}
+
+#txt{
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+   text-align: center;
+}
+.titulo{
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 150%;
+    
+}
+#dvmai{
+    background-color: #ff6464b6;
+    width: 97%;
+    height: 80vh;
+    border: solid;
+    border-color: #BEC7FF;
+    border-radius: 20px;
+
+}
+.text{
+    color: white;
+    font-family: "Heebo", sans-serif;
+}
+.li{
+    margin-left: 15%;
+}
+
